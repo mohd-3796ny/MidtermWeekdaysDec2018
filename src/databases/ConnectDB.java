@@ -249,7 +249,7 @@ public class ConnectDB {
             connectToMySql();
                 ps = connect.prepareStatement("INSERT INTO "+tableName+" ( " + columnName1 + "," + columnName2 + " ) VALUES(?,?)");
                 ps.setString(1,"Ankita Sing");
-                ps.setInt(2,3590);
+                ps.setInt(2,1234);
                 ps.executeUpdate();
 
 
@@ -298,7 +298,7 @@ public class ConnectDB {
         for(User user:list){
             System.out.println(user.getName()+ " " + user.getId());
         }
-        String message = insertToMongoDB(new User("Tanima Chowdhury", 3539));
+        String message = insertToMongoDB(new User("mohd faruque", 1234));
         List<User> user = readFromMongoDB();
         */
 

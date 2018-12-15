@@ -20,6 +20,7 @@ public class FindMissingNumber {
                     j++;
                 continue;
 
+
                 else; arr.add(j);
             }
          System.out.println(" " + a);
